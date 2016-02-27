@@ -1,14 +1,15 @@
 ﻿
-# include <Siv3D.hpp>
+#include "Main.h"
+
+#include "Character.h"
+#include "Map.h"
 
 void Main()
 {
-	const Font font(30);
+	//ウィンドウサイズを幅640*480に指定
+	Window::Resize(640, 480);
 
 	while (System::Update())
 	{
-		font(L"ようこそ、Siv3D の世界へ！").draw();
-
-		Circle(Mouse::Pos(), 50).draw({ 255, 0, 0, 127 });
 	}
 }
