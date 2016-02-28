@@ -441,9 +441,6 @@
     <ClCompile Include="Textures.cpp">
       <Filter>Resources\Textures</Filter>
     </ClCompile>
-    <ClCompile Include="Mapchip.cpp">
-      <Filter>Resources\Textures</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h">
@@ -456,9 +453,6 @@
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="Textures.h">
-      <Filter>Resources\Textures</Filter>
-    </ClInclude>
-    <ClInclude Include="Mapchip.h">
       <Filter>Resources\Textures</Filter>
     </ClInclude>
   </ItemGroup>

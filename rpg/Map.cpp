@@ -1,7 +1,7 @@
 
 #include "Map.h"
 
-void Map::MapInit()
+void MAP::MapInit()
 {
 	timer = 0;
 	for (int y = 0; y < SIZE_Y; y++)
@@ -19,9 +19,12 @@ void Map::MapInit()
 	flag_left = false;
 	flag_up = false;
 	flag_down = false;
+
+	map1 = CSVReader(L"Map/map1.csv");
+	if (!map1) return;
 }
 
-void Map::MapUpdata()
+void MAP::MapUpdata()
 {
 	timer++;
 
@@ -46,7 +49,7 @@ void Map::MapUpdata()
 	}*/
 }
 
-void Map::MapDraw()
+void MAP::MapDraw()
 {
 	for (int y = 0; y < SIZE_Y; y++)
 	{

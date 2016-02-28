@@ -2,5 +2,5 @@
 #pragma once
 
 #include "Textures.h"
-#include "Mapchip.h"
-
+#include "Character.h"
+#include "Map.h"
