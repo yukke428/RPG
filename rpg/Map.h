@@ -1,7 +1,7 @@
 
 #pragma once
 
-#include "Main.h"
+#include "Resources.h"
 
 
 #define MAP_WIDTH 32 //マップチップの幅

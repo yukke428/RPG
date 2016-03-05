@@ -14,7 +14,6 @@ void MAP::MapInit()
 			drawy[y] = y * 32;
 		}
 	}
-
 	flag_right = false;
 	flag_left = false;
 	flag_up = false;
@@ -57,19 +56,19 @@ void MAP::MapDraw()
 		{
 			if (maps[y][x] == 0)
 			{
-				TextureAsset(L"map1").uv(0, 0.33, 0.33, 0.33).draw(drawx[x], drawy[y]);
+				TextureAsset(L"map1").uv(0, 0.34, 0.34, 0.34).draw(drawx[x], drawy[y]);
 			}
-			if (maps[y][x] == 1)
+			else if (maps[y][x] == 1)
 			{
-				TextureAsset(L"map1").uv(0, 0, 0.33, 0.33).draw(drawx[x], drawy[y]);
+				TextureAsset(L"map1").uv(0, 0, 0.34, 0.34).draw(drawx[x], drawy[y]);
 			}
-			if (maps[y][x] == 2)
+			else if (maps[y][x] == 2)
 			{
-				TextureAsset(L"map1").uv(0.33, 0, 0.33, 0.33).draw(drawx[x], drawy[y]);
+				TextureAsset(L"map1").uv(0.34, 0, 0.34, 0.34).draw(drawx[x], drawy[y]);
 			}
-			if (maps[y][x] == 3)
+			else if (maps[y][x] == 3)
 			{
-				TextureAsset(L"map1").uv(0.67, 0, 0.33, 0.33).draw(drawx[x], drawy[y]);
+				TextureAsset(L"map1").uv(0.68, 0, 0.34, 0.34).draw(drawx[x], drawy[y]);
 			}
 		}
 	}

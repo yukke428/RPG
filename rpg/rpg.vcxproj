@@ -168,6 +168,7 @@
     <ClInclude Include="Character.h" />
     <ClInclude Include="Main.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Resources.h" />
     <ClInclude Include="Textures.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

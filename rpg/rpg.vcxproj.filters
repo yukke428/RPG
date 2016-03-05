@@ -455,5 +455,8 @@
     <ClInclude Include="Textures.h">
       <Filter>Resources\Textures</Filter>
     </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Main</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
